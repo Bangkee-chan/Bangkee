@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: white;
+	background-image: url('img/3.jpg'); /* Ganti dengan path gambar background */
+	background-size: cover;
+	background-position: center;
+}
+
+.kotak {
+	width: 80%;
+	margin: auto;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	margin-top: 50px;
+}
+
+.judul h1 {
+	text-align: center;
+	color: #333;
+}
+
+.blok {
+	margin-bottom: 20px;
+}
+
+.blok h2 {
+	color: #333;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.kiri img {
+	width: 150px;
+	height: auto;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.kanan table {
+	width: 100%;
+}
+
+.kanan th, .kanan td {
+	text-align: left;
+	padding: 5px;
+}
+
+.kanan th {
+	width: 120px;
+}
+
+.kanan th, .kanan td {
+	color: #333;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.keahlian, .media-sosial {
+	width: 45%;
+}
+
+.keahlian ul, .media-sosial ul {
+	list-style: none;
+	padding: 0;
+}
+
+.keahlian li, .media-sosial li {
+	margin-bottom: 10px;
+}
+
+.media-sosial a {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+.media-sosial a:hover {
+	text-decoration: underline;
+}
